@@ -3,7 +3,7 @@ default: build run
 
 .PHONY: build
 build:
-	@docker build -t opencodeco/ocb .
+	@docker buildx build -t opencodeco/ocb .
 
 .PHONY: run
 run:
